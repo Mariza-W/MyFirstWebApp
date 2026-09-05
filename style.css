@@ -1,0 +1,47 @@
+/* Style the entire page */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff8f5;
+    color: #333333;
+    margin: 40px;
+    line-height: 1.6;
+}
+
+/* Main heading */
+h1 {
+    color: #b85c8b;
+    text-align: center;
+}
+
+/* Section headings */
+h2 {
+    color: #7a4f9a;
+    border-bottom: 2px solid #e6d5f0;
+    padding-bottom: 5px;
+}
+
+/* Paragraph styling */
+p {
+    font-size: 18px;
+}
+
+/* List styling */
+ul {
+    background-color: #f7eefc;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* Link styling */
+a {
+    color: white;
+    background-color: #b85c8b;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+/* Mouse hover effect */
+a:hover {
+    background-color: #94446d;
+}
