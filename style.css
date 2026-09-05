@@ -45,3 +45,7 @@ a {
 a:hover {
     background-color: #94446d;
 }
+
+.project-image {
+    margin-top: 30px;
+}
