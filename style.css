@@ -1,7 +1,10 @@
 /* Style the entire page */
 body {
     font-family: Arial, sans-serif;
-    background-color: #fff8f5;
+    background: linear-gradient(
+        to bottom,
+        #dfa1f6,
+        #eec2e4);
     color: #333333;
     margin: 40px;
     line-height: 1.6;
@@ -46,6 +49,35 @@ a:hover {
     background-color: #94446d;
 }
 
+/* Crochet image */
 .project-image {
     margin-top: 30px;
+}
+
+/* Unordered list - goals */
+ul li {
+    margin-bottom: 10px;
+}
+
+/* Profile image in circle */
+.profile-image {
+    display: block;
+    margin: 20px auto;
+    width: 200px;
+    border-radius: 50%;
+    border: 4px solid #b85c8b;
+}
+
+/* Footer format */
+footer {
+    margin-top: 40px;
+    text-align: center;
+    color: #666;
+    font-size: 14px;
+}
+
+/* Containerise to centre and improve readability */
+.container {
+    max-width: 800px;
+    margin: auto;
 }
